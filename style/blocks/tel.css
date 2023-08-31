@@ -1,0 +1,9 @@
+.tel__link {
+	color: inherit;
+	font-size: 24px;
+}
+
+.tel__link:hover,
+.tel__link:focus {
+	text-shadow: 1px 1px 2px var(--color-grey);
+}

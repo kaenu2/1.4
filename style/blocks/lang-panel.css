@@ -1,0 +1,16 @@
+.lang-panel {
+}
+.lang-panel__item {
+}
+.lang-panel__btn {
+	background: transparent;
+	font-weight: 500;
+}
+.lang-panel__btn:disabled {
+	color: var(--color-grey);
+}
+
+.lang-panel__btn:hover,
+.lang-panel__btn:focus {
+	text-shadow: 1px 1px 2px var(--color-grey);
+}

@@ -1,0 +1,20 @@
+.header-site-bar {
+}
+.header-site-bar__left {
+	display: flex;
+	gap: 16px;
+}
+.header-site-bar__btn {
+}
+
+.header-site-bar__logo {
+}
+.header-site-bar__logo .logo__img {
+	max-width: 97px;
+}
+
+@media (min-width: 1120px) {
+	.header-site-bar__btn.icon-burger-close {
+		display: none;
+	}
+}

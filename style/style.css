@@ -1,0 +1,74 @@
+@import url('./base/nullstyle.css');
+@import url('./base/fonts.css');
+
+@import url('./blocks/logo.css');
+
+@import url('./blocks/site-bar.css');
+@import url('./blocks/header-site-bar.css');
+@import url('./blocks/menu-site-bar.css');
+@import url('./blocks/btn-panel.css');
+@import url('./blocks/email.css');
+@import url('./blocks/tel.css');
+@import url('./blocks/lang-panel.css');
+
+:root {
+	--color-white: #ffffff;
+	--color-lite-green: #d9fff5;
+	--color-green: #b8ffec;
+	--color-dark-green: #41f6d7;
+	--color-grey: #7e7e82;
+	--color-light-gray: #eaeaea;
+	--color-dark: #1b1c21;
+	--bg-color: #f8f8f8;
+	--color-tomato: #ff3e79;
+}
+
+body {
+	font-family: 'TTLakes', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--color-dark);
+	background-color: var(--bg-color);
+}
+
+.btn-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+}
+.btn-icon::after {
+	content: '';
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+	box-shadow: 0 0 4px 0px transparent;
+	border-radius: 50%;
+	transition: filter 0.3s ease 0s, box-shadow 0.3s ease 0s;
+}
+
+.btn-icon:hover::after,
+.btn-icon:focus::after {
+	filter: brightness(0.8);
+	box-shadow: 0 0 4px 0px var(--color-tomato);
+}
+.btn-icon:active::after {
+	filter: brightness(0.6);
+}
+
+.icon-call::after {
+	background: url('../img/icons/call.svg') no-repeat;
+}
+.icon-chat::after {
+	background: url('../img/icons/chat.svg') no-repeat;
+}
+.icon-profile::after {
+	background: url('../img/icons/profile.svg') no-repeat;
+}
+
+.icon-burger-close::after {
+	background: url('../img/icons/burger-close.svg') no-repeat;
+}
+.icon-search::after {
+	background: url('../img/icons/search.svg') no-repeat;
+}
