@@ -3,13 +3,13 @@
 
 @import url('./blocks/logo.css');
 
-@import url('./blocks/site-bar.css');
-@import url('./blocks/header-site-bar.css');
-@import url('./blocks/menu-site-bar.css');
-@import url('./blocks/btn-panel.css');
-@import url('./blocks/email.css');
-@import url('./blocks/tel.css');
-@import url('./blocks/lang-panel.css');
+@import url('./blocks/site-bar/site-bar.css');
+@import url('./blocks/site-bar/header-site-bar.css');
+@import url('./blocks/site-bar/menu-site-bar.css');
+@import url('./blocks/site-bar/btn-panel.css');
+@import url('./blocks/site-bar/email.css');
+@import url('./blocks/site-bar/tel.css');
+@import url('./blocks/site-bar/lang-panel.css');
 
 :root {
 	--color-white: #ffffff;
